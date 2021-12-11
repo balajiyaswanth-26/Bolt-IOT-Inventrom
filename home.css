@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+body
+{
+    overflow-x:hidden ;
+}
+.navbar 
+{
+    top: 0;
+    background-color: #efefef;
+    z-index: 100;
+}
+#navbarNavAltMarkup
+{
+    color: #0a0a0a;
+} 
+.bg-image img
+{
+    z-index: -1;
+    width: 100%;
+    height : calc(100vh - 80px);
+}
+.home
+{
+    position: relative;
+}
+.content
+{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
+#about-us
+{
+    padding-top: 100px;
+}
+.abtus h2
+{
+    text-align: center;
+    color:  #139139;
+}
+.abtus p
+{
+    text-align: center;
+    padding: 25px;
+}
+.vission img{
+    width: 400px;
+    align-items: center;
+    margin: 0%;
+}
+.mission img{
+    width: 400px;
+
+}
+#AWARDS
+{
+    padding: 100px 0;
+}
+.awards1 h2
+{
+    text-align: center;
+    color:  #139139;
+}
+.awd-display img
+{
+    width: 250px;
+   
+ 
+}
+.awd-display p{
+    text-align: center;
+}
+.awd-display h5
+{
+    text-align: center;
+}
+#contactus
+{
+    padding-bottom: 100px ;
+    
+}
+.getintouch
+{
+    text-align: center;
+    color:  #139139;
+    padding: 25px;
+}
+.bg .fa{
+    background-color: gray;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    padding: 5px 0 0 8px;
+    color: white;
+}
+.contact-details p{
+    padding-top: 15px;
+    
+}
+#footer
+{
+    margin-bottom: 0;
+    background-color: #139139;
+}
+.footer-details
+{
+    padding: 15px;
+}
+.copyrights
+{
+    color: white;
+    padding-left: 50px;
+}
+.social-icons a
+{
+    color: white;
+}
+.arrow a
+{
+    color: white;
+}
+.play a{
+    color: white;
+    
+}
